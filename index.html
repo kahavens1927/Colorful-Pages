@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Using JS</title>
+
+    <style>
+
+
+
+header {
+
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 75px;
+}
+
+.item {
+
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+img {
+
+    position: relative;
+    width: 100px;
+    margin-top: 80px;
+}
+
+
+
+
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <header>
+
+        Three Major Sports Teams of Indiana
+
+    </header>
+
+    <div class="container">
+
+        <div class="item pacers"> Indiana Pacers <img 
+            src="pacers.png"> </div>
+
+        <div class="item colts">Indianapolis Colts <img 
+        src="colts.png"> </div>
+
+        <div class="item fever"> Indiana Fever <img 
+        src="fever.png"> </div>
+
+      </div>
+
+    
+
+</body>
+
+<script>
+
+let main= document.querySelector(".container");
+
+    main.style.backgroundColor = "gray";
+    main.style.width = "100%";
+    main.style.height = "600px";
+    main.style.display = "flex";
+
+
+
+
+let pacers = document.querySelector (".pacers");
+
+    pacers.style.backgroundColor = "blue";
+    pacers.style.color = "gold"
+    pacers.style.height = "300px";
+    pacers.style.width = "200px";
+    pacers.style.margin = "50px";
+    pacers.style.border = "solid 3px gold"
+
+let colts = document.querySelector (".colts");
+
+    colts.style.backgroundColor = "white";
+    colts.style.color = "blue";
+    colts.style.height = "300px";
+    colts.style.width = "200px";
+    colts.style.margin = "50px";
+    colts.style.border = "solid 3px blue";
+    
+
+let fever = document.querySelector (".fever");
+
+    fever.style.backgroundColor = "red";
+    fever.style.color = "gold";
+    fever.style.height = "300px";
+    fever.style.width = "200px";
+    fever.style.margin = "50px";
+    fever.style.border = "solid 3px "
+        
+
+
+
+
+</script>
+
+
+
+</html>
